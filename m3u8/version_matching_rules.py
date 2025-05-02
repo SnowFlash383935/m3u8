@@ -101,7 +101,7 @@ class ValidEXTXBYTERANGEOrEXTXIFRAMESONLY(VersionMatchRuleBase):
         return self.version >= 4
 
 
-available_rules: list[type[VersionMatchRuleBase]] = [
+available_rules: list[] = [
     ValidIVInEXTXKEY,
     ValidFloatingPointEXTINF,
     ValidEXTXBYTERANGEOrEXTXIFRAMESONLY,
