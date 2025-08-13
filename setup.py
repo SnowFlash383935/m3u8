@@ -12,7 +12,7 @@ install_reqs = [
 ]
 
 setup(
-    name="m3u8",
+    name="m3u8-old-python",
     author="Globo.com",
     version="6.0.0",
     license="MIT",
